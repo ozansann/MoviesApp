@@ -27,7 +27,8 @@ By using the movie api in RapidApi, I developed the "Film Mağarası" applicatio
 * Data Binding
 * View Binding
 * Gson
-* CardView
+* Calendar
+* Spinner
 * Swipe Refresh
 * Animations between fragments
 
