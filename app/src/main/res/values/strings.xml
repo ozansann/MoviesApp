@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Film Mağarası</string>
+    <string name="explore">Keşfet</string>
+    <string name="fav">Favorilerim</string>
+    <string name="contact">İletişim</string>
+    <string name="movie_name">Film adı</string>
+    <string name="movie_year">Film Yılı</string>
+    <string name="movie_rating">Film Reytingi</string>
+    <string name="movie_info">Scream 2 is a 1997 American slasher film directed by Wes Craven and written by Kevin Williamson. It stars Neve Campbell, David Arquette, Courteney Cox, Sarah Michelle Gellar, Jamie Kennedy, Laurie Metcalf, Jerry O\'Connell, Elise Neal, Timothy Olyphant, Jada Pinkett and Liev Schreiber. The film was released on December 12, 1997, less than a year after the first, by Dimension Films, as the second installment in the Scream film series. It was followed by three sequels, Scream 3 (2000), Scream 4 (2011), and Scream (2022). Scream 2 takes place two years after the first film and again follows the character of Sidney Prescott (Campbell), and other survivors of the Woodsboro massacre, at the fictional Windsor College in Ohio, where they are targeted by a copycat killer using the guise of Ghostface. Like its predecessor, Scream 2 combines the violence of the slasher genre with elements of comedy, satire and "whodunit" mystery while satirizing the cliché of film sequels.</string>
+    <string name="close">KAPAT</string>
+    <string name="select_movie_year">Film yılı seçiniz</string>
+    <string name="search_movie">FİLM ARAMA</string>
+    <string name="search">ARA</string>
+    <string name="github">ozansann</string>
+    <string name="linkedin">/in/ozansann/</string>
+    <string name="instagram">ozansann</string>
+    <string name="mail">ozansan1914@gmail.com</string>
+</resources>

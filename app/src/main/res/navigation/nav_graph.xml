@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.od.moviesapp.Fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_favouriteMovieFragment"
+            app:destination="@id/favouriteMovieFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.od.moviesapp.Fragments.MovieDetailFragment"
+        android:label="MovieDetailFragment" >
+        <argument
+            android:name="movieDetailModel"
+            app:argType="com.od.moviesapp.Models.MovieModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteMovieFragment"
+        android:name="com.od.moviesapp.Fragments.FavouriteMovieFragment"
+        android:label="FavouriteMovieFragment" >
+
+        <action
+            android:id="@+id/action_favouriteMovieFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_favouriteMovieFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+        <action
+            android:id="@+id/action_favouriteMovieFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.od.moviesapp.Fragments.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_favouriteMovieFragment"
+            app:destination="@id/favouriteMovieFragment" />
+    </fragment>
+</navigation>
