@@ -1,4 +1,4 @@
-# Movies App
+# Movies App(Film Mağarası)
 <img src="https://user-images.githubusercontent.com/30535316/202257357-6e46ef34-b4be-404b-b7cc-af9803fa53d4.PNG" width="1500" height="500">
 
 ## General Info
