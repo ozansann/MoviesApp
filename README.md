@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/30535316/202257357-6e46ef34-b4be-404b-b7cc-af9803fa53d4.PNG" width="1500" height="500">
 
 ## General Info
-By using the movie api in RapidApi, I developed the "Film Mağarası" application that allows users to view all movies with release date, rating and summary information. It is also possible to filter by movie name and release year in Movie Cave. After entering the movie details, users can watch the trailers of the movie through the application via the Youtube Api, add the movies they like to their favorites and remove them from their favourites.
+By using the movie api in RapidApi, I developed the "Film Mağarası" application that allows users to view all movies with release date, rating and summary information. It is also possible to filter by movie name and release year in "Film Mağarası". After entering the movie details, users can watch the trailers of the movie through the application via the Youtube Api, add the movies they like to their favorites and remove them from their favourites.
 ## Screenshots
 <p float="left">
 <img src="https://user-images.githubusercontent.com/30535316/202257678-715b3452-4170-4c89-b5b9-3d941928fa66.png" width="250" height="500">
